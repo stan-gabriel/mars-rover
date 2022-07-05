@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the class when hovered 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div>
+      <p>
+        Rover Coordinates: (0, 0) EAST
+      </p>
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        onClick={[Function]}
+      >
+        Send commands
+      </button>
+      <div
+        style={
+          Object {
+            "fontSize": "0.8rem",
+          }
+        }
+      >
+        <i>
+          Only use: 'F' 'B' 'L' 'R'
+        </i>
+      </div>
+      <button
+        onClick={[Function]}
+      >
+        reset Rover position
+      </button>
+    </div>
+  </header>
+</div>
+`;
